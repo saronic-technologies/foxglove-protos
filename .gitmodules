@@ -1,0 +1,6 @@
+[submodule "mcap"]
+	path = mcap
+	url = git@github.com:foxglove/mcap.git
+[submodule "schemas"]
+	path = schemas
+	url = git@github.com:foxglove/schemas.git
