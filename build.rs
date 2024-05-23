@@ -12,8 +12,6 @@ fn main() -> Result<()> {
         })
         .collect();
 
-    println!("{:#?}", proto_files);
-
     prost_build::compile_protos(&proto_files, &["schemas/schemas/proto/"])?;
 
     Ok(())
