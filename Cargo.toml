@@ -2,6 +2,12 @@
 name = "foxglove-protos"
 version = "0.1.0"
 edition = "2021"
+license = "MPL-2.0"
+description = "A crate for interacting with the foxglove protos."
+homepage = "https://github.com/saronic-technologies/foxglove-protos"
+repository = "https://github.com/saronic-technologies/foxglove-protos"
+readme = "README.md"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
