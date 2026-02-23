@@ -1,7 +1,7 @@
 [package]
 name = "foxglove-protos"
-version = "0.1.1"
-edition = "2021"
+version = "0.2.0"
+edition = "2024"
 license = "MPL-2.0"
 description = "A crate for interacting with the foxglove protos."
 homepage = "https://github.com/saronic-technologies/foxglove-protos"
