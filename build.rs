@@ -3,7 +3,7 @@ use protobuf_codegen::Codegen;
 use std::path::PathBuf;
 
 fn main() {
-    let pattern = "schemas/schemas/proto/foxglove/*.proto";
+    let pattern = "proto/foxglove/*.proto";
 
     let protos: Vec<PathBuf> = glob(pattern).unwrap()
         .filter_map(|e| match e {
@@ -15,7 +15,7 @@ fn main() {
     Codegen::new()
         .pure()
         .cargo_out_dir("generated_protos")
-        .include("schemas/schemas/proto/")
+        .include("proto/")
         .inputs(protos)
         .run_from_script();
 }
